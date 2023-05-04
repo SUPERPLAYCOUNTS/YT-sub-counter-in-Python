@@ -11,7 +11,7 @@ Once you have installed the `requests` module, you can run the script by opening
 The subscriber count will be displayed in a GUI created using the `tkinter` module.
 
 ## Result
-![result](https://example.com/result_image.png)
+![result](/result.png)
 
 ## Data Source
 The subscriber count data is obtained using the API provided by `https://api.superplaycounts.repl.co/api/youtube-channel-counter/user/{id}`.
