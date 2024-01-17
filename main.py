@@ -6,7 +6,7 @@ HEIGHT = 400
 WIDTH = 800
 
 def get_channel_subscriber_count(id):
-    url = f'https://api.superplaycounts.repl.co/api/youtube-channel-counter/user/{id}'
+    url = f'https://api-superplaycounts.onrender.com/api/youtube-channel-counter/user/{id}'
     response = requests.get(url)
     data = json.loads(response.text)
     subscriber_count = data['statistics'][0]['counts'][0]['count']
@@ -14,7 +14,7 @@ def get_channel_subscriber_count(id):
     return subscriber_count, channel_name
 
 def search_channel_id(channel_name):
-    url = f'https://api.superplaycounts.repl.co/api/youtube-channel-counter/search/{channel_name}'
+    url = f'https://api-superplaycounts.onrender.com/api/youtube-channel-counter/search/{channel_name}'
     response = requests.get(url)
     data = json.loads(response.text)
     channel_id = data['list'][0][2]
