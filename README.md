@@ -14,4 +14,4 @@ The subscriber count will be displayed in a GUI created using the `tkinter` modu
 ![result](/result.png)
 
 ## Data Source
-The subscriber count data is obtained using the API provided by `https://api.superplaycounts.repl.co/api/youtube-channel-counter/user/{id}`.
+The subscriber count data is obtained using the API provided by `https://api-superplaycounts.onrender.com/api/youtube-channel-counter/user/{id}`.
